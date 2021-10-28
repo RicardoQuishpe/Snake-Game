@@ -1,0 +1,63 @@
+body {
+    text-align: center;
+    background: rgb(95, 129, 78);
+}
+
+.grid {
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+    border-style: solid;
+    border-radius: 20px;
+}
+
+.grid div {
+    width: 20px;
+    height: 20px;
+}
+
+.content {
+    float: left;
+    width: 20%;
+    padding: 50px;
+}
+
+.snake {
+    background-color: rgb(12, 14, 13);
+    border-radius: 10px;
+}
+
+.apple {
+    background-color: rgb(167, 25, 0);
+    border-radius: 10px;
+}
+
+button {
+    background: rgb(57, 150, 57);
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+}
+
+button:hover {
+    cursor: pointer;
+    background: rgb(119, 192, 119);
+}
+
+.score,
+.live {
+    display: block;
+    margin: 10px;
+    padding: 20px;
+    font-size: 26px;
+}
+
+.score {
+    color: rgb(8, 105, 138);
+}
+
+.live {
+    color: rgb(177, 19, 19);
+}
